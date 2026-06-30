@@ -1,5 +1,5 @@
 """
-Data models used throughout the project.
+Data models for the project.
 """
 
 from dataclasses import dataclass
@@ -7,9 +7,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Document:
-    """
-    Represents a single knowledge base document.
-    """
+    """Represents a knowledge base document."""
 
     title: str
     filename: str
