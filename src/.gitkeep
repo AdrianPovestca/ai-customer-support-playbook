@@ -1,1 +1,12 @@
-# Keep folder in Git
+ai-customer-support-playbook/
+
+docs/
+knowledge_base/
+src/
+    chatbot.py
+    config.py
+    prompts.py
+
+.gitignore
+LICENSE
+README.md
